@@ -10,7 +10,7 @@ function sendContactForm(event) {
     fetch('https://fsdt-contact.onrender.com/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ nome1, nome2, nome3, nome4, nome5, historia }),
+        body: JSON.stringify({ names: [nome1, nome2, nome3, nome4, nome5], message: historia }),
     })
     .then(response => response.json())
     .then(data => console.log(data))
