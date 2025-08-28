@@ -13,7 +13,7 @@ function sendContactForm(event) {
         body: JSON.stringify({ names: [nome1, nome2, nome3, nome4, nome5], message: historia }),
     })
     .then(response => response.json())
-    .then(data => console.log(data))
+    .then(data => alert('Formulário enviado com sucesso!',data))
     .catch(error => alert('Erro ao enviar o formulário:', error));
 }
 
