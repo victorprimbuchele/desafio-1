@@ -15,6 +15,7 @@ body {
 
     }
     .title-section {
+      min-width: 726px;
       width: fit-content;
       display: flex;
       flex-direction: column;
@@ -34,11 +35,11 @@ body {
     }
     .form-container {
       background: #fff;
-      max-width: 450px;
+      max-width: 608px;
       margin: -40px auto 0 auto;
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-      padding: 32px 32px 24px 32px;
+      padding: 64px 64px 40px 64px;
       display: flex;
       flex-direction: column;
       gap: 16px;
@@ -63,7 +64,7 @@ body {
       font-size: 1rem;
       margin-bottom: 10px;
       background: #fafafd;
-      color: #23233c;
+      color: #4E4958;
     }
     .form-textarea {
       min-height: 70px;
